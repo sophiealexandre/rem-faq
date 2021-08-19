@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Exo - Foire aux questions      </title>
+
+    <meta content="Exo" name="application-name" />
+  <meta content="#FFFFFF" name="msapplication-TileColor" />
+  <meta content="https://exo.quebec/Media/Default/favicon/mstile-144x144.png" name="msapplication-TileImage" />
+  <meta content="https://exo.quebec/Media/Default/favicon/mstile-70x70.png" name="msapplication-square70x70logo" />
+  <meta content="https://exo.quebec/Media/Default/favicon/mstile-150x150.png" name="msapplication-square150x150logo" />
+  <meta content="https://exo.quebec/Media/Default/favicon/mstile-310x150.png" name="msapplication-wide310x150logo" />
+  <meta content="https://exo.quebec/Media/Default/favicon/mstile-310x310.png" name="msapplication-square310x310logo" />
+  <meta content="https://exo.quebec/Media/Default/images/exo-noir-300x300.png" name="og:image" />
+  <meta content="Exo" name="og:title" />
+  <meta content="Exo - Autobus, trains et transport adapté dans la région du grand Montréal" name="og:description" />
+  <link href="https://exo.quebec/Media/Default/favicon/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://exo.quebec/Media/Default/favicon/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://exo.quebec/Media/Default/favicon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://exo.quebec/Media/Default/favicon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://exo.quebec/Media/Default/favicon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://exo.quebec/Media/Default/favicon/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://exo.quebec/Media/Default/favicon/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://exo.quebec/Media/Default/favicon/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://exo.quebec/Media/Default/favicon/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="https://exo.quebec/Media/Default/favicon/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="https://exo.quebec/Media/Default/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="https://exo.quebec/Media/Default/favicon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="https://exo.quebec/Media/Default/favicon/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="https://exo.quebec/Media/Default/favicon/favicon-128.png" sizes="128x128" />
+
+    <script type='text/javascript'>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-16086161-1', 'exo.quebec', {'allowLinker': true});
+
+    ga('send', 'pageview');
+
+    setTimeout(function() {
+      ga('send', 'event', 'bounce-rate', 'read', '20-seconds');
+    }, 20000);
+
+    if (document.referrer.match(/google\.([a-zA-Z]{2,6})/gi) && document.referrer.match(/cd/gi)) {
+      var myString = document.referrer;
+      var r        = myString.match(/cd=(.*?)&/);
+      var rank     = parseInt(r[1]);
+      var kw       = myString.match(/q=(.*?)&/);
+
+      if (kw[1].length > 0) {
+          var keyWord  = decodeURI(kw[1]);
+      } else {
+          keyWord = '(not provided)';
+      }
+
+      var p        = document.location.pathname;
+      ga('send', 'event', 'RankTracker', keyWord, p, rank, true);
+    }
+  </script>
+
+  <link rel="stylesheet" href="../css/main.css">
+
+  <script>
+    var GLOBAL_site_root = "../";
+    var GLOBAL_site_path = "/fr/";
+    var GLOBAL_site_lang = "fr";
+    var GLOBAL_is_sector = false;
+  </script>
+</head>
+<body>
+
+<div class="content__ann">
+  <!-- <span class="content__ann--icon"></span> -->
+  <div class="content__ann-wrapper">
+    <p>Ligne Deux-Montagnes fermée depuis le 1<sup>er</sup> janvier 2021. Consultez vos <a href="https://exo.quebec/Media/Default/html/REM/fr/sectors.html">options de transport</a>.</p>
+  </div>
+</div>
+
+<nav class="nav nav__header">
+  <div class="nav__wrapper">
+    <a href="index.html" class="nav__link logo" >
+      <img src="../img/logo-exo.svg" alt="">
+      <div class="nav__logo">
+        <span>Info</span>
+        <span>Mobilité REM</span>
+      </div>
+    </a>
+    <button class="nav__menu js-trigger-menu" aria-haspopup="true" aria-label="Menu" aria-controls="dropdown-menu"></button>
+    <div class="nav__list-wrapper js-dropdown-menu" id="dropdown-menu">
+      <ul class="nav__list">
+        <li class="nav__item" role="none">
+          <a tabindex="0" href="sectors.html" role="menuitem" class="nav__link ">Options de transport</a>
+        </li>
+        <li class="nav__item nav__item--dropdown js-submenu" role="none">
+          <button tabindex="0" aria-haspopup="true" aria-controls="submenu" id="dropdown-button" class="nav__link ">Mesures tarifaires</button>
+          <ul class="nav__dropdown" id="submenu" role="menu" aria-labelledby="dropdown-button">
+            <li class="nav__dropdown-item" role="none"><a tabindex="0" class="nav__dropdown-link copy-4" role="menuitem" href="fares-exo5.html" class="nav__link">Ligne Mascouche</a></li>
+            <li class="nav__dropdown-item" role="none"><a tabindex="0" class="nav__dropdown-link copy-4" role="menuitem" href="fares-exo6.html" class="nav__link">Ligne Deux-Montagnes</a></li>
+          </ul>
+        </li>
+        <li class="nav__item" role="none">
+          <a tabindex="0" href="faq.html" role="menuitem" class="nav__link active">FAQ</a>
+        </li>
+        <li class="nav__item" role="none">
+          <a tabindex="0" href="contact.html" role="menuitem" class="nav__link ">Contactez-nous</a>
+        </li>
+        <li class="nav__item" role="none">
+          <a tabindex="0" href="../en/faq.html" role="menuitem" class="nav__link lang">EN</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="main">
+  <div class="content">
+
+    <div class="breadcrumbs">
+      <p class="breadcrumbs__item copy-4">Accueil</p>
+      <p class="breadcrumbs__item copy-4">Foire aux questions</p>
+    </div>
+
+        <div class="content__header">
+            <h1 class="heading-1">Foire aux questions REM</h1>
+      <p class="copy-1">Trouvez les réponses à vos questions concernant le projet du REM et les mesures d’atténuation en vigueur pendant les travaux: mesures tarifaires et alternatives de transport.</p>
+    </div>
+
+
+    <div class="content__cards">
+      <div class="card card--6cl card--no-padding text text--green">
+
+                <button
+  class="text__legend text--sticky js-dropdown-mobile"
+  aria-haspopup="true"
+  aria-label="Legend"
+  aria-controls="legend-menu">
+  <h3 class="text__heading copy-2 js-trigger-sticky">
+    <span class="text__menu"></span>
+    Les sections sur cette page    <span class="text__close"></span>
+  </h3>
+
+  <ul
+    class="text__list js-dropdown-sticky"
+    id="legend-menu"
+    role="alertdialog"
+    aria-modal="true"
+    aria-labelledby="modal_label"
+    aria-describedby="modal_desc"
+    tabindex="-1">
+        <li class="text__list-item" role="none">
+      <a class="text__list-link sub-heading js-dropdown-link" role="menuitem" href="faq.html#section-1"><span>Mesures d’atténuation REM</span></a>
+    </li>
+        <li class="text__list-item" role="none">
+      <a class="text__list-link sub-heading js-dropdown-link" role="menuitem" href="faq.html#section-2"><span>Titres de transport REM</span></a>
+    </li>
+        <li class="text__list-item" role="none">
+      <a class="text__list-link sub-heading js-dropdown-link" role="menuitem" href="faq.html#section-3"><span>Options de transport ligne exo5 Mascouche</span></a>
+    </li>
+        <li class="text__list-item" role="none">
+      <a class="text__list-link sub-heading js-dropdown-link" role="menuitem" href="faq.html#section-4"><span>Options de transport ligne exo6 Deux-Montagnes</span></a>
+    </li>
+        <li class="text__list-item" role="none">
+      <a class="text__list-link sub-heading js-dropdown-link" role="menuitem" href="faq.html#section-5"><span>Projet du REM</span></a>
+    </li>
+      </ul>
+</button>
+
+                <div class="text__content">
+    <div id="section-0" class="text__section">
+    <h2 class="text__section-heading copy-1">Questions les plus posées</h2>
+
+
+              <ol class="text__steps">
+                      <li class="text__steps-item">
+              <a class="text__steps-link" href="faq.html#question-1-4" class="copy-2">La pandémie de COVID-19 a-t-elle un impact sur les mesures d’atténuation?</a>
+            </li>
+                      <li class="text__steps-item">
+              <a class="text__steps-link" href="faq.html#question-2-2" class="copy-2">Comment puis-je bénéficier d’un titre TRAMREM?</a>
+            </li>
+                      <li class="text__steps-item">
+              <a class="text__steps-link" href="faq.html#question-4-1" class="copy-2">Pourquoi la fermeture de la ligne exo6 Deux-Montagnes intervient plus tôt que prévu?</a>
+            </li>
+                      <li class="text__steps-item">
+              <a class="text__steps-link" href="faq.html#question-4-2" class="copy-2">La ligne exo6 Deux-Montagnes est fermée depuis le 31 décembre 2020. Puis-je continuer à me rendre au Centre-ville en transport collectif?</a>
+            </li>
+                      <li class="text__steps-item">
+              <a class="text__steps-link" href="faq.html#question-4-4" class="copy-2">Quelle est la tarification des navettes 404, 405, 498 et 499?</a>
+            </li>
+                  </ol>
+
+
+
+      </div>
+    <div id="section-1" class="text__section">
+    <h2 class="text__section-heading copy-1">Mesures d'atténuation REM</h2>
+
+
+
+
+                        <div class="text__card">
+            <div id="question-1-1" class="text__card-header">En quoi consistent les mesures d'atténuation?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p>La fermeture du tunnel Mont-Royal depuis le 11 mai 2020 et celle de la ligne exo6 Deux-Montagnes depuis le 31 décembre 2020 ont un impact considérable sur le trajet des usagers des lignes Mascouche et Deux-Montagnes.</p>
+                    <p>Pour chacune des phases de travaux et pour chacun des secteurs des deux lignes concernées, des mesures d’atténuation ont été mises en place afin de vous permettre de continuer à utiliser le transport collectif. Ces mesures comprennent:</p>
+                    <ul>
+                      <li><p>Des <b>alternatives de transport.</b></p></li>
+                      <li><p>Des <b>mesures tarifaires.</b></p></li>
+                    </ul>
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-1-2" class="text__card-header">Les élus et les municipalités ont-ils été consultés pour la mise en place de ces mesures?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p>Les élus, les municipalités et les arrondissements concernés par les fermetures ont été impliqués dès le début de la planification des mesures d'atténuation. Ils sont notamment parties prenantes dans plusieurs comités de travail pilotés par l'Autorité régionale de transport métropolitain (ARTM) et le ministère des Transports (MTQ).</p>
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-1-3" class="text__card-header">Quelles sont les mesures tarifaires en vigueur?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p><b>La tarification</b> accordée aux usagers des lignes Mascouche et Deux-Montagnes pendant la construction du REM tient compte des impacts des travaux:</p>
+                    <ul>
+                      <li><p>Les usagers de la ligne <b>exo5 Mascouche</b> bénéficient jusqu’à 30% de rabais, avec un prix plancher mensuel de 88,50 $ (indexé à 90,50 $ depuis le 1er juillet 2021).</p></li>
+                    </ul>
+                    <p><a href="https://exo.quebec/Media/Default/html/REM/fr/fares-exo5.html">En savoir plus sur la mesure tarifaire exo5 Mascouche</a></p>
+                    <p>Les usagers de la ligne Deux-Montagnes <b>admissibles à la mesure tarifaire et abonnés à OPUS+ ou OPUS+ entreprise</b> peuvent bénéficier d'un <b>tarif mensuel préférentiel</b> à 88,50 $ (pour le tarif ordinaire) ou 53,00 $ (pour les tarifs réduit et étudiant) leur est accordé. Ces tarifs ont respectivement été indexés à 90,50 $ et 54 $ au 1er juillet 2021. </p>
+                    <p><a href="https://exo.quebec/Media/Default/html/REM/fr/fares-exo6.html">En savoir plus sur la mesure tarifaire exo6 Deux-Montagnes</a></p>
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-1-4" class="text__card-header">La pandémie de COVID-19 a-t-elle un impact sur les mesures d’atténuation?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p>La situation actuelle liée à la pandémie de COVID-19 a entrainé une diminution importante du nombre d’usagers dans l’ensemble du réseau de transport collectif de la région métropolitaine. En raison de cette baisse d’achalandage, plusieurs changements ont été apportés au service:</p>
+                    <ul>
+                      <li><p><b>Sur la ligne exo5 Mascouche</b>: les navettes 501 et 502 sont suspendues depuis le 24 août 2020.</p></li>
+                      <li><p><b>Sur la ligne exo6 Deux-Montagnes</b>: la navette 405 est suspendue.</p></li>
+                    </ul>
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-1-5" class="text__card-header">Comment les sociétés de transport synchronisent-elles leurs services?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p>Depuis la fermeture du tunnel Mont-Royal et la mise en opération des mesures d'atténuation, un comité (<b>cellule tactique de coordination</b>) auquel prennent part le MTQ, l'ARTM, la STM, la STL et exo, suit quotidiennement les heures de pointe du matin et de l’après-midi.</p>
+                    <p>Ce comité veille à la <b>synchronisation des opérations</b> sur le terrain et effectue des ajustements au quotidien afin de s'assurer du bon déroulement des activités en périodes de pointe.</p>
+                                          </div>
+          </div>
+
+      </div>
+    <div id="section-2" class="text__section">
+    <h2 class="text__section-heading copy-1">Titres de transport REM</h2>
+
+
+
+
+                        <div class="text__card">
+            <div id="question-2-1" class="text__card-header">Quelle est la différence entre les titres REM?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p>Deux titres REM existent pour les usagers de la <b>ligne exo6 Deux-Montagnes admissibles à la mesure tarifaire</b>. Le titre de transport offert est déterminé en fonction de votre zone de résidence:</p>
+                    <ul>
+                      <li><p>Le titre <b>MTLREM</b> est offert aux usagers admissibles <b>qui ne résident pas dans le bassin géographique déterminé de la zone 3 <a href="https://exo.quebec/fr/titres-tarifs/refonte-tarifaire">(nouvellement nommée zone B)</a></b>.  Il donne accès aux <b>services d'autobus et de métro sur l'île de Montréal uniquement</b> ainsi qu’aux navettes mises en place dans le cadre de la mesure d’atténuation.</p></li>
+                      <li><p>Le titre <b>TRAMREM</b> est offert aux usagers admissibles qui <b>résident dans le bassin géographique déterminé de la zone 3 <a href="https://exo.quebec/fr/titres-tarifs/refonte-tarifaire">(nouvellement nommée zone B)</a></b>. Il donne accès à <b>l’ensemble du réseau de transport collectif métropolitain:</b> trains, autobus, métro et navettes.</p></li>
+                    </ul>
+                    <p><b><a href="https://exo.quebec/Media/Default/images/section5/Offres/Modalites_REM_phase2b_FR.pdf" target="_blank">Voir les modalités </a></b></p>
+
+                                      <div class="card text__info card__info card--blue-light">
+                      <span class="info__icon info__icon--1"></span>
+                      <div>
+                        <p>Le titre MTLREM ne vous permet pas de prendre le métro à partir des stations Montmorency, De la Concorde, Cartier ou Longueuil, ni d’utiliser les services d'autobus à l'extérieur de l'île de Montréal, à l'exception des navettes REM opérées par exo.</p>                      </div>
+                    </div>
+
+
+
+
+
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-2-2" class="text__card-header">Comment puis-je bénéficier du TRAMREM?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p><b>Dès novembre 2020:</b></p>
+                    <p>Les usagers de la zone 3 <a href="https://exo.quebec/fr/titres-tarifs/refonte-tarifaire">(nouvellement nommée zone B)</a> admissibles à la mesure tarifaire peuvent profiter d’un titre TRAMREM en souscrivant à un <b>abonnement OPUS+ ou OPUS+ entreprise</b>. Une nouvelle carte OPUS vous sera envoyée par la poste vers le 20<sup>e</sup> jour du mois précédant sa prise d’effet.</p>
+                    
+
+                                      <div class="card text__info card__info card--blue-light">
+                      <span class="info__icon info__icon--1"></span>
+                      <div>
+                        <p>Les usagers qui résident dans une autre zone mais qui possèdent déjà un titre TRAMREM dans le cadre de la mesure tarifaire peuvent conserver ce titre.</p>                      </div>
+                    </div>
+
+
+
+
+
+                                          </div>
+          </div>
+
+      </div>
+    <div id="section-3" class="text__section">
+    <h2 class="text__section-heading copy-1">Options de transport ligne exo5 Mascouche</h2>
+
+
+
+
+                        <div class="text__card">
+            <div id="question-3-1" class="text__card-header">Puis-je en savoir plus sur le trajet qui contourne la montagne?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p>Le trajet qui contourne la montagne permet de relier la gare Mascouche au Centre-ville de Montréal pendant les travaux.</p>
+                    <ul>
+                      <li><p><b>Deux départs sont programmés le matin en direction du Centre-ville</b>: à 6h17 et 7h30.</p></li>
+                      <li><p><b>Le soir, deux trains partent de la Gare Centrale en direction de Mascouche</b>: à 16h13 et 17h30.</p></li>
+                    </ul>
+                    <p>Afin de contourner le Mont-Royal, les trains de la ligne exo5 Mascouche utilisent un parcours habituellement réservé aux trains de marchandises. <b>Le temps de parcours peut donc varier selon le trafic ferroviaire.</b></p>
+
+                                      <div class="card text__info card__info card--blue-light">
+                      <span class="info__icon info__icon--1"></span>
+                      <div>
+
+                    <p><b>Changement de quai à la Gare Centrale</b></p>
+                    <p>Depuis le 11 mai 2020, le débarquement et l'embarquement à la Gare Centrale se font au quai 20.</p>                      </div>
+                    </div>
+
+
+
+
+
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-3-2" class="text__card-header">Quels sont les itinéraires et la tarification des navettes 500, 501 et 502?</div>
+            <div class="text__card-content">
+
+
+
+
+
+                                      <p>Les navettes 500, 501 et 502 ont été mises en place pour transporter les usagers qui empruntaient le train exo5 Mascouche vers la station de métro Radisson sur la ligne verte.</p>
+
+
+                                      <div class="text__table text__table--1">
+                      <div class="text__table-header">
+                                                  <span>Navette</span>
+                                                  <span>Itinéraire</span>
+                                                  <span>Titres acceptés</span>
+                                              </div>
+                                              <div class="text__table-content">
+                          <p>Itinéraire</p>
+                          <span>500</span>
+                          <p>Titres acceptés</p>
+                          <span>De la gare Mascouche à la station de métro Radisson.</span>
+                          <span>Titres Tous modes ABC ou du secteur Terrebonne-Mascouche.</span>
+                        </div>
+                                              <div class="text__table-content">
+                          <p>Itinéraire</p>
+                          <span>501</span>
+                          <p>Titres acceptés</p>
+                          <span>De la gare Terrebonne à la station de métro Radisson.</span>
+                          <span>Titres Tous modes ABC ou du secteur Terrebonne-Mascouche.</span>
+                        </div>
+                                              <div class="text__table-content">
+                          <p>Itinéraire</p>
+                          <span>502</span>
+                          <p>Titres acceptés</p>
+                          <span>De la gare Repentigny à la station de métro Radisson.</span>
+                          <span>Titres Tous modes ABC ou titres locaux externes du secteur L’Assomption.</span>
+                        </div>
+                                          </div>
+
+
+
+
+
+
+
+
+
+                                      <p><a href="https://exo.quebec/fr/planifier-trajet/autobus/MRCLM/500/0" target="_blank">Consulter les horaires de la navette 500</a></p>
+
+                                      <div class="card text__info card__info card--blue-light">
+                      <span class="info__icon info__icon--1"></span>
+                      <div>
+
+                    <p><b>En raison du faible achalandage, les navettes 501 et 502 sont suspendues depuis le 24 août 2020.</b></p>
+                    <ul>
+                      <li><p>Les usagers qui empruntaient la navette 501 sont invités à prendre la <a href="https://exo.quebec/fr/planifier-trajet/autobus/MRCLM/140/0" target="_blank">ligne 140</a> de la gare Terrebonne au métro Radisson.</p></li>
+                      <li><p>Les usagers qui empruntaient la navette 502 sont invités à prendre la <a href="https://exo.quebec/fr/planifier-trajet/autobus/MRCLASSO/100/1" target="_blank">ligne 100</a> de la gare Repentigny au métro Radisson.</p></li>
+                    </ul>                      </div>
+                    </div>
+
+
+
+
+
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-3-3" class="text__card-header">Les options de transport mises en place par la mesure sont-elles adaptées aux personnes à mobilité réduite?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p>Plusieurs options existent pour permettre aux personnes à mobilité réduite de se rendre au Centre-ville pendant les travaux:</p>
+                    <ul>
+                      <li><p>Deux trains à destination de la Gare Centrale sont accessibles.</p></li>
+                    </ul>
+                    <p><a href="https://exo.quebec/fr/planifier-trajet/train/mascouche" target="_blank">Consulter les horaires des trains exo5 Mascouche</a></p>
+                    <p>Pour les autres trains qui circulent uniquement entre les gares Mascouche et Ahuntsic:</p>
+                    <ul>
+                      <li><p>En direction de Montréal, les usagers sont invités à descendre à la gare Sauvé et prendre l'<a href="http://www.stm.info/fr/infos/reseaux/bus/reseau-local/ligne-31-sud" target="_blank">autobus 31 sud – Saint-Denis</a> vers la prochaine station de métro accessible: Rosemont.</p></li>
+                      <li><p>En direction de Mascouche, les usagers sont invités à descendre à la station de métro Henri-Bourassa et rejoindre la boucle d'autobus afin de prendre l'<a href="http://www.stm.info/fr/infos/reseaux/bus/reseau-local/ligne-31-sud" target="_blank">autobus 31 sud – Saint-Denis</a> jusqu'à la station Sauvé.</p></li>
+                    </ul><br>
+                                          </div>
+          </div>
+
+      </div>
+    <div id="section-4" class="text__section">
+    <h2 class="text__section-heading copy-1">Options de transport ligne exo6 Deux-Montagnes</h2>
+
+
+
+
+                        <div class="text__card">
+            <div id="question-4-1" class="text__card-header">Pourquoi la fermeture de la ligne Deux-Montagnes intervient plus tôt que prévu?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p>Le déploiement de la seconde phase des mesures d’atténuation a été devancé principalement pour <b>faciliter les déplacements des usagers</b>.</p>
+                    <p>La mise en place de cette nouvelle phase a notamment été permise par la réalisation plus rapide des travaux d’aménagement des accotements d’autoroute pour les autobus.</p>
+                    <p><b>Ces nouvelles mesures vous permettent ainsi d’accéder plus rapidement et plus facilement à votre destination finale, avec le moins de correspondance possible.</b></p>
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-4-2" class="text__card-header">La ligne Deux-Montagnes est fermée depuis le 31 décembre 2020. Vais-je pouvoir continuer à me rendre au Centre-ville en transport collectif?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p>Tout à fait. Cette fermeture entraînera des modifications dans vos habitudes de transport mais plusieurs options vous seront offertes:</p>
+                    <ul>
+                      <li><p>La <a href="https://exo.quebec/fr/planifier-trajet/autobus/CITLA/404/1" target="_blank">navette 404</a> relie les gares Deux-Montagnes et Grand-Moulin au Centre-ville de Montréal.</p></li>
+                      <li><p>La <a href="https://exo.quebec/fr/planifier-trajet/autobus/CITLA/498/1" target="_blank">navette 498</a> relie le terminus Saint-Eustache et la gare Sainte-Dorothée au Centre-ville de Montréal.</p></li>
+                      <li><p>La <a href="https://exo.quebec/fr/planifier-trajet/autobus/CITLA/499/1" target="_blank">navette 499</a> relie la gare Deux-Montagnes au métro Côte-Vertu.</p></li>
+                    </ul>
+                    <p><b>Depuis le 4 janvier 2021:</b></p>
+                    <ul>
+                      <li><p>La <a href="faq.html#" target="_blank">navette 496</a> relie les gares Deux-Montagnes et Grand-Moulin aux gares Roxboro-Pierrefonds et Sunnybrooke.</p></li>
+                    </ul>
+
+                                      <div class="card text__info card__info card--blue-light">
+                      <span class="info__icon info__icon--1"></span>
+                      <div>
+
+                    <p><b>Navette 404:</b> Le débarquement et l'embarquement au Centre-ville de Montréal se font à deux endroits différents en semaine et en fin de semaine.</p>
+                    <ul>
+                      <li><p>La semaine: au terminus Mansfield.</p></li>
+                      <li><p>La fin de semaine: au terminus Centre-ville.</p></li>
+                    </ul>                      </div>
+                    </div>
+
+
+
+
+
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-4-3" class="text__card-header">Pourquoi la navette 405 ne circule-t-elle pas en ce moment?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p><b>La navette 405 est actuellement suspendue en raison du faible achalandage.</b></p>
+                    <p>Elle relie habituellement la gare Deux-Montagnes à la gare de Sainte-Thérèse et permet aux usagers de prendre le train de la ligne exo2 Saint-Jérôme pour se rendre au Centre-ville.</p>
+
+                                      <div class="card text__info card__info card--blue-light">
+                      <span class="info__icon info__icon--1"></span>
+                      <div>
+
+                    <p>Le titre MTLREM n’est pas valide pour prendre les trains de la ligne exo2 Saint-Jérôme. Pour l’emprunter, vous devez être en possession d’un titre TRAMREM, TRAIN 5 ou le titre Tous modes approprié. </p>                      </div>
+                    </div>
+
+
+
+
+
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-4-4" class="text__card-header">Quelle est la tarification des navettes 404, 405, 498 et 499?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p>Les <b>navettes 404, 498 et 499</b> sont accessibles uniquement aux usagers qui détiennent les titres de transport suivants:</p>
+                    <ul>
+                      <li><p>Les titres MTLREM et TRAMREM octroyés dans le cadre de la mesure tarifaire REM Deux-Montagnes.</p></li>
+                      <li><p>Tous les <a href="https://exo.quebec/fr/titres-tarifs/tarifs" target="_blank">titres de transport du secteur Laurentides.</a></p></li>
+                  
+                    </ul>
+
+                                      <div class="card text__info card__info card--blue-light">
+                      <span class="info__icon info__icon--1"></span>
+                      <div>
+
+                    <p>Les usagers qui possèdent un titre mensuel STM peuvent se rendre à une billetterie métropolitaine pour y obtenir gratuitement un titre de transport leur permettant d'utiliser les navettes 404, 496, 498 et 499. Veuillez noter que le paiement à bord n'est pas autorisé.</p>                      </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                    <p>La <b>navette 405</b> est gratuite pour tous les usagers.</p>
+
+                                      <div class="card text__info card__info card--blue-light">
+                      <span class="info__icon info__icon--1"></span>
+                      <div>
+
+                    <p>En raison du faible achalandage, la navette 405 est actuellement suspendue.</p>                      </div>
+                    </div>
+
+
+
+
+
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-4-5" class="text__card-header">Pourquoi le prolongement de la ligne orange du métro jusqu'à la gare Bois-Franc n'a pas été envisagé comme mesure d'atténuation?</div>
+            <div class="text__card-content">
+
+
+
+
+
+                                      <p>L'essence même d'une mesure d'atténuation est de pouvoir être déployée rapidement. Ainsi le prolongement de la ligne de métro ne peut pas être envisagé comme une mesure d’atténuation car il nécessite notamment des études et des approbations gouvernementales qui en font un projet à long terme et piloté par l'ARTM.</p>
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-4-6" class="text__card-header">Les options de transport sur la ligne exo6 Deux-Montagnes sont-elles accessibles aux personnes à mobilité réduite?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p>Les usagers peuvent se rendre au Centre-ville en utilisant:</p>
+                    <ul>
+                      <li><p>La <a href="https://www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/choisissez-une-ligne-pour-connaitre-la-liste-complete-des-arrets-de-cette-ligne/?route_id=902S" target="_blank">ligne 902</a> de la STL jusqu’à la station de métro accessible Côte-Vertu.</p></li>
+                      <li><p>Les <b>bus</b> <a href="http://www.stm.info/fr/infos/reseaux/bus/reseau-express/ligne-468-est" target="_blank">468</a> <b>et</b> <a href="http://www.stm.info/fr/infos/reseaux/bus/reseau-de-navettes/968-trainbus-roxboro-cote-vertu" target="_blank">968</a> de la STM, munis de rampe avant, qui assurent les navettes entre les gares Roxboro-Pierrefonds et Sunnybrooke et la station Côte-Vertu.</p></li>
+                      <li><p>La <b>station Côte-Vertu</b> à partir de laquelle les usagers peuvent transiter vers le Centre-ville.</p></li>
+                    </ul>
+
+                                      <div class="card text__info card__info card--blue-light">
+                      <span class="info__icon info__icon--1"></span>
+                      <div>
+
+                    <p>La majorité des arrêts sur les lignes 902 (STL), 468 et 968 (STM) sont accessibles. Nous vous invitons à consulter les horaires en ligne pour en vérifier la liste.</p>                      </div>
+                    </div>
+
+
+
+
+
+                                          </div>
+          </div>
+                  
+      </div>
+    <div id="section-5" class="text__section">
+    <h2 class="text__section-heading copy-1">Projet du REM</h2>
+
+
+
+
+                        <div class="text__card">
+            <div id="question-5-1" class="text__card-header">Qui pilote la réalisation du REM?</div>
+            <div class="text__card-content">
+
+
+
+
+
+                                      <p>Plusieurs partenaires interviennent dans les travaux du REM. Parmi les principaux:</p>
+                    <ul>
+                      <li><p>La <b>Caisse de dépôt et placement du Québec</b> pilote le projet.</p></li>
+                      <li><p>Filiale de la Caisse, <b>CDPQ Infra</b> est responsable de la planification, du financement, de la réalisation et de l’exploitation du REM.</p></li>
+                      <li><p>Un <b>bureau de projet REM dédié</b> est en charge de gérer la réalisation du projet pour toute la période de construction.</p></li>
+                    </ul>
+                    <p><a href="https://rem.info/fr/principaux-partenaires" target="_blank">Découvrir l’ensemble des principaux partenaires</a></p>
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-5-2" class="text__card-header">Quelle est l'implication d'exo dans ce projet?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p>À partir des échéanciers de travail déterminés par le bureau de projet REM dédié, <a href="https://www.artm.quebec/" target="_blank">ARTM</a> met en place des mesures d’atténuation.</p>
+                    <p>exo a la responsabilité de <b>mettre ces mesures en application</b> auprès de ses usagers.</p>
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-5-3" class="text__card-header">Comment les citoyens sont-ils informés et impliqués dans le projet?</div>
+            <div class="text__card-content">
+
+
+
+
+
+                                      <p>Un <b>bureau des relations avec la communauté</b> existe au sein du bureau de projet REM afin d’établir un dialogue avec les citoyens. Ses missions principales sont les suivantes:</p>
+                    <ul>
+                      <li><p>Informer le public sur les différentes étapes des travaux.</p></li>
+                      <li><p>Répondre aux questions sur les enjeux soulevés.</p></li>
+                      <li><p>Assurer un suivi régulier auprès des municipalités et des citoyens.</p></li>
+                    </ul>
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-5-4" class="text__card-header">La construction du REM cause des bouleversements dans le réseau de transport collectif. Quelle est la nature de ces travaux?</div>
+            <div class="text__card-content">
+
+
+
+
+
+
+                    <p>CDPQ Infra procède à la transformation complète de la ligne Deux-Montagnes par une nouvelle technologie: <b>un réseau de métro léger entièrement automatisé et électrique</b>.</p>
+                    <p>Ces travaux sont particulièrement importants:</p>
+                    <ul>
+                      <li><p>Changement de fondations des rails et alimentation électrique.</p></li>
+                      <li><p>Construction des stations.</p></li>
+                      <li><p>Remplacement de tous les passages à niveau par des étagements.</p></li>
+                    </ul>
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-5-5" class="text__card-header">À quels travaux peut-on s’attendre d'ici 2023?</div>
+            <div class="text__card-content">
+
+
+
+
+
+                                      <p>La séquence de travaux planifiée par la CDPQ Infra pour la construction de l’antenne Deux-Montagnes du REM prévoit deux étapes principales:</p>
+                  <ol>
+                    <li><p><b>Depuis mai 2020</b>: la fermeture d'un premier tronçon de la ligne Deux-Montagnes entre la Gare Centrale et la gare Du Ruisseau (<b>fermeture du tunnel Mont-Royal</b>).</p></li>
+                    <li><p><b>À compter du 31 décembre 2020</b>: la fermeture d'un deuxième tronçon entre la gare Du Ruisseau et Deux-Montagnes.</p></li>
+                  </ol>
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-5-6" class="text__card-header">Comment puis-je avoir une vue d'ensemble sur les travaux du REM?</div>
+            <div class="text__card-content">
+
+
+
+
+
+                                      <p>Pour connaître les lieux où se déroulent les travaux, en savoir plus sur les types de travaux et leurs impacts, nous vous invitons à consulter la <a href="https://rem.info/fr/info-travaux" target="_blank">section info-travaux du site du REM</a>.</p>
+                                          </div>
+          </div>
+                  <div class="text__card">
+            <div id="question-5-7" class="text__card-header">Quelle sera la date de mise en service du REM?</div>
+            <div class="text__card-content">
+
+
+
+
+
+                                      <p>La mise en service du REM se fera en plusieurs phases:</p>
+
+
+
+                                      <div class="text__table text__table--2">
+                      <div class="text__table-header">
+                                                  <span>Année</span>
+                                                  <span>Phase</span>
+                                              </div>
+                                              <div class="text__table-content">
+                                                      <span>2022</span>
+                                                      <span>Antenne Rive-Sud (Rive-Sud à Gare Centrale)</span>
+                                                  </div>
+                                              <div class="text__table-content">
+                                                      <span>2023</span>
+                                                      <span>Tronçon central (Gare Centrale à Du Ruisseau)</span>
+                                                  </div>
+                                              <div class="text__table-content">
+                                                      <span>2024</span>
+                                                      <span>Antenne Sainte-Anne-de-Bellevue</span>
+                                                      <span>Antenne Aéroport</span>
+                                                      <span>Antenne Deux-Montagnes (fin 2023)</span>
+                                                  </div>
+                                          </div>
+
+
+
+                                          </div>
+          </div>
+
+      </div>
+
+  </div>
+</div>
+
+      </div>
+
+                <div class="card card--2cl card--no-padding">
+      <div class="card__cl card__cl--padding card__cl--1 card--grey-4">
+        <h3 class="sub-heading sub-heading--clock">Besoin de planifier votre trajet?</h3>
+        <h2 class="heading-2">Faites le tour des options qui s'offrent à vous</h2>
+                <a href="sectors.html" class="btn btn--green">Voir vos options de transport</a>
+              </div>
+      <div class="card__cl card__cl--padding card__cl--1 card--green-forest">
+        <h3 class="sub-heading sub-heading--chat">Besoin de précisions?</h3>
+        <h2 class="heading-2">Des questions au sujet des titres ou des mesures tarifaires?</h2>
+                <a href="contact.html" class="btn btn--yellow">Nous écrire</a>
+      </div>
+    </div>
+
+    </div>
+  </div>
+</main>
+
+	<footer class="footer">
+		<div class="footer__wrapper">
+			<div class="footer__comments">
+				<div class="footer__comments-title">
+					<svg version="1.1" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><path d="m7 3q-1.594 0-2.98 0.543t-2.203 1.465-0.816 1.992q0 0.875 0.559 1.668t1.574 1.371l0.68 0.391-0.211 0.75q-0.187 0.711-0.547 1.344 1.187-0.492 2.148-1.336l0.336-0.297 0.445 0.047q0.539 0.062 1.016 0.062 1.594 0 2.98-0.543t2.203-1.465 0.816-1.992-0.816-1.992-2.203-1.465-2.98-0.543zm7 4q0 1.359-0.937 2.512t-2.547 1.82-3.516 0.668q-0.547 0-1.133-0.062-1.547 1.367-3.594 1.891-0.383 0.109-0.891 0.172h-0.039q-0.117 0-0.211-0.082t-0.125-0.215v-8e-3q-0.023-0.031-4e-3 -0.094t0.016-0.078 0.035-0.074l0.047-0.07t0.055-0.066 0.062-0.07q0.055-0.062 0.242-0.27t0.27-0.297 0.242-0.309 0.254-0.398 0.211-0.461 0.203-0.594q-1.227-0.695-1.934-1.719t-0.707-2.195q0-1.359 0.937-2.512t2.547-1.82 3.516-0.668 3.516 0.668 2.547 1.82 0.937 2.512z"/></svg>					<span>Sondage éclair</span>
+				</div>
+								<iframe id="sondage-eclaire-pied-page" style="overflow: hidden;" width="100%" height="100" src="https://ca.surveygizmo.com/s3/50074771/mesure-utile" frameborder="0" iframe="" scrolling="no"></iframe>
+											</div>
+			<div class="footer__nav">
+				<div class="footer__item">
+					<a class="footer__link" href="index.html">Accueil</a>
+					<a class="footer__link" href="sectors.html">Options de transport</a>
+					<a class="footer__link" href="faq.html">FAQ</a>
+				</div>
+				<div class="footer__item">
+					<a class="footer__link" href="fares-exo5.html">Mesures tarifaires - Ligne Mascouche</a>
+					<a class="footer__link" href="fares-exo6.html">Mesures tarifaires - Ligne Deux-Montagnes</a>
+					<a class="footer__link" href="contact.html">Contactez-nous</a>
+				</div>
+				<div class="footer__item">
+					<a class="footer__link" href="../en/index.html">English version</a>
+					<a class="footer__link btn__action btn__action--external" href="https://exo.quebec/fr" target="_blank">Site exo.quebec</a>
+					<a class="footer__link btn__action btn__action--external" href="https://rem.info/fr" target="_blank">Site rem.info</a>
+				</div>
+			</div>
+			<div class="footer__copy">
+				<p class="footer__copy--copy">&copy;2020 exo, Tous droits réservés.</p>
+				<p class="footer__copy--copy">Le nom « exo » est une marque officielle déposée par le Réseau de transport métropolitain en vertu du sous-alinéa 9(1)(n)(iii) de la Loi sur les marques de commerce (L.R.C. (1985), ch. T-13).</p>
+			</div>
+		</div>
+	</footer>
+
+	<div
+  id="info-modal"
+  class="modal"
+  role="alertdialog"
+  aria-modal="true"
+  aria-labelledby="modal_label"
+  aria-describedby="modal_desc"
+  tabindex="-1">
+  <div class="modal__content card--grey-4">
+    <span class="modal__close js-close"></span>
+    <h2 class="modal__heading heading-2" id="modal_label">Avis</h2>
+    <p class="modal__copy copy-2" id="modal_desc">Veuillez noter que ce site est encore en construction</p>
+    <button class="modal__btn btn btn--green js-close">J'ai compris</button>
+  </div>
+</div>
+
+	<script
+			  src="https://code.jquery.com/jquery-1.10.2.min.js"
+			  integrity="sha256-C6CB9UYIS9UJeqinPHWTHVqh/E1uhG5Twh+Y5qFQmYg="
+			  crossorigin="anonymous"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
